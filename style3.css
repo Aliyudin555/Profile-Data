@@ -1,0 +1,79 @@
+body {
+    background-color: #497ec4d2;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 5px 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(206, 206, 186);
+    transition: 1s;
+
+}
+.navbar a:hover{
+    color: black;
+    transform: scale(120%);
+}
+.card{
+    margin:  150px auto;
+    width: 50%;
+    padding: 10px 20px;
+    color: rgb(250, 250, 250);
+    text-shadow: 2px 2px 3px #000000d2;
+    background-color: rgba(0, 0, 0, 0.692);
+    box-shadow: 5px 5px 3px #0d0d0e96;
+    text-align: left;
+    border-radius: 20px;
+    font-style: oblique;
+    transition: 1s;
+}
+a img{
+    transition: 1s;
+    padding: 5px 8px;
+}
+a img:hover{
+    transform: scale(85%);
+    box-shadow: 3px 5px 3px #de9999d2;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar{
+        padding: 5px 50px;
+    } 
+    .card{
+        width: 70%;
+    }
+    a img{
+        padding: 10px 8px;
+        
+    }
+}
+@media (max-width: 767px) {
+    .navbar{
+        padding: 5px 50px;
+    }
+    .card{
+        width: 70%;
+    }
+    a img{
+        padding: 10px 8px;
+        
+    }
+}
+@media (max-width: 467px){
+    .navbar{
+        padding: 5px 50px;
+    }
+    .card{
+        width: 70%;
+    }
+    a img{
+        padding: 10px 8px;
+        
+    }
+}
