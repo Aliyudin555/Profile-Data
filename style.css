@@ -14,8 +14,6 @@ body {
     text-decoration: none;
     color: rgb(206, 206, 186);
     transition: 1s;
-    min-width:50%;
-
 }
 .navbar a:hover{
     color: black;
